@@ -138,6 +138,7 @@ img {
     width: 100vw;
     height: 653px;
     text-align: center;
+    color: white;
     background-color: var(--dark-red);
 }
 
@@ -145,7 +146,6 @@ img {
     display: inline-block;
     margin: 40px;
     font-size: 2.4rem;
-    color: white;
 }
 
 .main__features-section--fee-card {
@@ -160,5 +160,6 @@ img {
 
 .top-feecard {
     display: flex;
+    flex-direction: row;
     
 }
