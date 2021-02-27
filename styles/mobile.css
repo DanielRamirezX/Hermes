@@ -1,3 +1,11 @@
+:root {
+    --cream-white: #FAF8F7;
+    --red-hermes: #EB2629;
+    --grey-hermes: #212121;
+    --wine: #310000;
+    --dark-red: #6B0000;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -60,4 +68,28 @@ img {
     width: 205px;
     font-size: 1.8rem;
     color: white;
+}
+
+.main__info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 500px;
+    padding: 20px;
+    background-color: var(--cream-white);
+}
+
+.main__info-section--features {
+    text-align: center;
+}
+
+.main__info-section--features figure {
+    width: 56px;
+    height: 56.88px;
+    margin: 0 auto 5px auto;
+}
+
+.main__info-section--features span {
+    font-size: 1.3rem;
 }
