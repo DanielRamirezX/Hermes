@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 345px;
+    width: 100vw;
+    position: relative;
+    background: radial-gradient(138.33% 159.07% at 0% 15.69%, #000000 22.3%, #5E0202 50%, #C70404 100%);
+}
+
+img {
+    width: 100%;
+}
+
+.header__background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../assets/WhiteMapBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__first-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header__first-section span {
+    display: inline-block;
+    width: 34px;
+    height: 24px;
+    background-image: url("../assets/MenuWhite.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__second-section {
+    display: flex;
+    height: calc(90% - 73px);
+    padding: 20px;
+    align-items: center;
+    text-align: start;
+}
+
+.header__second-section span {
+    display: inline-block;
+    width: 205px;
+    font-size: 1.8rem;
+    color: white;
+}
