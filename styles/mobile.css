@@ -55,6 +55,10 @@ img {
     background-repeat: no-repeat;
 }
 
+.header__first-section--logo {
+    width: 90px;
+}
+
 .header__second-section {
     display: flex;
     height: calc(90% - 73px);
