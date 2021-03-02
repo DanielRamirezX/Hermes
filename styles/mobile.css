@@ -18,7 +18,7 @@ html {
 }
 
 header {
-    height: 345px;
+    height: 300px;
     width: 100%;
     position: relative;
     background: radial-gradient(138.33% 159.07% at 0% 15.69%, #000000 22.3%, #5E0202 50%, #C70404 100%);
@@ -61,7 +61,7 @@ img {
 
 .header__second-section {
     display: flex;
-    height: calc(90% - 73px);
+    height: calc(90% - 90px);
     padding: 20px;
     align-items: center;
     text-align: start;
