@@ -72,10 +72,6 @@ main {
     width: 100%
 }
 
-.main__about-section {
-    height: 692px;
-}
-
 .main__about-section--background-text {
     position: absolute;
     width: 100%;
@@ -91,7 +87,6 @@ main {
 }
 
 .main__features-section {
-    position: relative;
     text-align: center;
 }
 
@@ -118,16 +113,17 @@ main {
     color: var(--red-hermes);
 }
 
-.main__features-section--gradient {
-    position: absolute;
-    width: 320px;
-    height: 154px;
-    top: 380px;
-    background: linear-gradient(0deg, #FFFFFF 4.17%, rgba(255, 255, 255, 0) 100%);
+.main__features-section--text {
+    position: relative;
+    margin-bottom: 30px;
 }
 
-.main__features-section--text {
-    margin-bottom: 30px;
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 154px;
+    top: -207px;
+    background: linear-gradient(0deg, #FFFFFF 4.17%, rgba(255, 255, 255, 0) 100%);
 }
 
 .main__features-section--text p {
