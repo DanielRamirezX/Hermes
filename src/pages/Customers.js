@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+const Customers = () => {
+    const view = `
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/mobile.css">
-    <title>Hermes</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./src/styles/mobileCustomers.css">
+    <title>Clientes</title>
+    </head>
+    <body>
     <header>
-        <div class="header__background-image"></div>
         <section class="header__first-section">
             <figure class="header__first-section--logo">
-                <img src="./assets/HermesBikeWhite.svg" alt="Logo Hermes">
+                <img src="../src/assets/HermesBlackBike.svg" alt="Logo de bici hermes negra">
             </figure>
             <input id="burger" type="checkbox" />
 	        <label for="burger">
@@ -26,7 +25,7 @@
   	        <ul>
                 <li>
                     <figure>
-                        <img src="./assets/HERMESblanco 2.svg" alt="Logo de bici mensajeria hermes">
+                        <img src="../src/assets/HERMESblanco 2.svg" alt="Logo de bici mensajeria hermes">
                     </figure>
                 </li>
     	        <li><a href="#">¿Quienes somos?</a></li>
@@ -37,112 +36,33 @@
 	        </nav>
         </section>
         <section class="header__second-section">
-            <span>Servicio de logística de entregas punto a punto, rápido y seguro</span>
+            <p class="header__second-section--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id nibh feugiat est varius viverra.</p>
+            <span></span>
         </section>
     </header>
     <main>
-        <section class="main__info-section">
-            <div class="main__info-section--features">
-                <figure>
-                    <img src="./assets/ImageFeatures1.svg" alt="Bicicleta animada">
-                </figure>
-                <span><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </i></span>
+        <section class="main__about-section">
+            <div class="main__about-section--background-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div class="main__info-section--features">
-                <figure>
-                    <img src="./assets/ImageFeatures2.svg" alt="Bicicleta animada">
-                </figure>
-                <span><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </i></span>
-            </div>
-            <div class="main__info-section--features">
-                <figure>
-                    <img src="./assets/ImageFeatures3.svg" alt="Bicicleta animada">
-                </figure>
-                <span><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </i></span>
-            </div>
-            <div class="main__info-section--features">
-                <figure>
-                    <img src="./assets/ImageFeatures4.svg" alt="Bicicleta animada">
-                </figure>
-                <span><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </i></span>
-            </div>
-        </section>
-        <section class="carousel">
-            <div class="carousel-inner">
-                <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-                <div class="carousel-item">
-                    <div class="main__about-section--info">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit</span>
-                    </div>
-                </div>
-                <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-                <div class="carousel-item">
-                    <div class="main__about-section--info">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit</span>
-                    </div>
-                </div>
-                <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-                <div class="carousel-item">
-                    <div class="main__about-section--info">
-                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit</span>
-                    </div>
-                </div>
-                <label for="carousel-3" class="carousel-control prev control-1">‹</label>
-                <label for="carousel-2" class="carousel-control next control-1">›</label>
-                <label for="carousel-1" class="carousel-control prev control-2">‹</label>
-                <label for="carousel-3" class="carousel-control next control-2">›</label>
-                <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-                <label for="carousel-1" class="carousel-control next control-3">›</label>
-                <ol class="carousel-indicators">
-                    <li>
-                        <label for="carousel-1" class="carousel-bullet">•</label>
-                    </li>
-                    <li>
-                        <label for="carousel-2" class="carousel-bullet">•</label>
-                    </li>
-                    <li>
-                        <label for="carousel-3" class="carousel-bullet">•</label>
-                    </li>
-                </ol>
-            </div>
+            <figure>
+                <img src="../src/assets/CustomersAboutImage.jpg" alt="Hombre con lentes andando en bici hermes por avenida de perfil">
+            </figure>
         </section>
         <section class="main__features-section">
-            <h2>Precios</h2>
-            <div class="main__features-section--fee-card">
-                <div class="top-feecard">
-                    <span>Zona A</span>
-                    <div>
-                        <span class="money"></span>
-                        <p>90.00</p>
-                    </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="main__features-section--image">
+                <div>
+                    <h2>Lorem</h2>
                 </div>
                 <figure>
-                    <img src="./assets/FeeMap.jpg" alt="Mapa con la zona A marcada">
+                    <img src="../src/assets/CustomersFeaturesImage.jpg" alt="Hombre de lentes andando en bici por avenida de frente">
                 </figure>
-                <div class="middle-feecard">
-                    <span class="time"></span>
-                    <span>Tiempo real</span>
-                </div>
-                <p class="description">Nuestro API toma información minuto a minuto sobre las tasas que más determinan el comportamiento.</p>
-                <a href="#contact">
-                    <div class="button">
-                        <span>Cotizar</span>
-                    </div>
-                </a>
             </div>
-        </section>
-        <section class="class-contact-section" id="contact">
-            <p>Nosotros te contactamos</p>
-            <form action="">
-                <label for="fname">Primer Nombre:</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <br>
-                <label for="lname">Primer Apellido:</label><br>
-                <input type="text" id="lname" name="lname"><br>
-                <br>
-                <label for="lname">Correo:</label><br>
-                <input type="email" id="lname" name="lname">
-            </form>
+            <div class="main__features-section--text">
+                <div class="gradient"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id nibh feugiat est varius viverra.</p>
+            </div>
         </section>
     </main>
     <footer>
@@ -189,4 +109,8 @@
         </ul>
     </footer>
 </body>
-</html>
+    `;
+    return view;
+}
+
+export default Customers;
