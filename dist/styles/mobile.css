@@ -1,0 +1,529 @@
+:root {
+    --cream-white: #FAF8F7;
+    --red-hermes: #EB2629;
+    --grey-hermes: #212121;
+    --wine: #310000;
+    --dark-red: #6B0000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    background: radial-gradient(138.33% 159.07% at 0% 15.69%, #000000 22.3%, #5E0202 50%, #C70404 100%);
+}
+
+img {
+    width: 100%;
+}
+
+.header__background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../assets/WhiteMapBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__first-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header__first-section > input[type="checkbox" i] {
+    display: none;
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+.header__first-section > input + label {
+    position: relative;
+    height: 24px;
+    width: 34px;
+    z-index: 5;
+}
+
+.header__first-section > input + label span {
+    position: absolute;
+    width: 100%;
+    height: 4.77px;
+    top: 45%;
+    margin-top: -1px;
+    left: 0;
+    display: block;
+    background: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.header__first-section > input + label span:first-child {
+    top: 1px;
+}
+
+.header__first-section > input + label span:last-child {
+    top: 20px;
+}
+
+.header__first-section > input ~ nav {
+    background: var(--grey-hermes);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    z-index: 3;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    overflow: hidden;
+}
+
+.header__first-section > input ~ nav > ul {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    top: 19%;
+    left: 0%;
+    right: 0%;
+}
+
+.header__first-section > input ~ nav > ul > li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.header__first-section > input ~ nav > ul > li > figure{
+    width: 117px;
+    margin: 0 auto;
+}
+
+.header__first-section > input ~ nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: block;
+    padding: 30px;
+}
+
+.header__first-section > input:checked ~ nav > ul > li {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+.header__first-section > input:checked + label span {
+    opacity: 0;
+    top: 50%;
+}
+
+.header__first-section > input:checked + label span:first-child {
+    opacity: 1;
+    transform: rotate(405deg);
+}
+
+.header__first-section > input:checked + label span:last-child {
+    opacity: 1;
+    transform: rotate(-405deg);
+}
+
+.header__first-section > input:checked ~ nav {
+    height: 100%;
+    transition-delay: 0s;
+}
+
+.header__first-section--logo {
+    width: 90px;
+}
+
+.header__second-section {
+    display: flex;
+    height: calc(90% - 90px);
+    padding: 20px;
+    align-items: center;
+    text-align: start;
+}
+
+.header__second-section span {
+    display: inline-block;
+    width: 205px;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.main__info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    background-color: var(--cream-white);
+}
+
+.main__info-section--features {
+    text-align: center;
+}
+
+.main__info-section--features figure {
+    width: 56px;
+    height: 56.88px;
+    margin: 0 auto 5px auto;
+}
+
+.main__info-section--features span {
+    font-size: 1.3rem;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    height: 346px;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-of-type(1) {
+    background-image: url("../assets/AboutCarouselImg1.jpg");
+}
+
+.carousel-item:nth-of-type(2) {
+    background-image: url("../assets/AboutCarouselImg2.jpg");
+}
+
+.carousel-item:nth-of-type(3) {
+    background-image: url("../assets/CustomersFeaturesImage.jpg");
+}
+
+.carousel-control {
+    background: rgba(0, 0, 0, 0.58);
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 86%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 5.5rem;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #F8454A;
+}
+
+.main__about-section--info {
+    display: flex;
+    height: 175px;
+    width: 100%;
+    align-items: flex-end;
+    text-align: center;
+    padding: 10px 15px 25px 15px;
+    background: linear-gradient(0deg, rgba(33, 33, 33, 0.78) 23.44%, rgba(85, 85, 85, 0.597187) 46.35%, rgba(143, 143, 143, 0.394062) 63.54%, rgba(194, 194, 194, 0.215312) 83.33%, rgba(255, 255, 255, 0) 100%);
+}
+
+.main__about-section--info span {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.main__features-section {
+    width: 100%;
+    height: 653px;
+    text-align: center;
+    color: white;
+    background-color: var(--dark-red);
+}
+
+.main__features-section h2 {
+    display: inline-block;
+    margin: 40px;
+    font-size: 2.4rem;
+}
+
+.main__features-section--fee-card {
+    position: relative;
+    width: 241px;
+    height: 395px;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    border-radius: 4px;
+    background-color: var(--wine);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.top-feecard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 500;
+    height: 50px;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.top-feecard > div {
+    display: flex;
+}
+
+.top-feecard > div > p {
+    align-self: center;
+}
+
+.money{
+    background-image: url("../assets/dollar-sign\ 2.svg");
+    background-size: cover;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+
+.main__features-section--fee-card figure img {
+    position: relative;
+    width: 195.5px;
+    height: 115px;
+    border-radius: 6px;
+    margin: 0;
+}
+
+.middle-feecard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.time{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 27px;
+    background-image: url("../assets/clock\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.description {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 20px;
+    text-align: left;
+    padding: 0 20px;
+    margin: 0 auto; 
+    color: #808080;
+}
+
+.button {
+    position: absolute;
+    top: 370px;
+    left: 50px;
+    width: 138px;
+    height: 43px;
+    border-radius: 25px;
+    border: var(--red-hermes) solid 2px;
+    background-color: white;
+    color: black;
+}
+
+.button:active {
+    background-color: #DE3D3D;
+    color: white;
+}
+
+.button span {
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.class-contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.class-contact-section > p{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.class-contact-section > form > label{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+.class-contact-section > form > input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 4px;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  color: white;
+  width: 100%;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+footer > span{
+  background-image: url("../assets/HERMESblanco\ 2.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 117px;
+  height: 69px;
+  margin-bottom: 20px;
+}
+
+footer > p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+footer > a{
+    font-weight: medium;
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    color: red;
+    transition-duration: .5s;
+}
+
+footer > ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer > ul > li> a> svg:hover{
+    filter: brightness(100);
+    transition-duration: 2s;
+}
