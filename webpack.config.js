@@ -33,7 +33,8 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: [
                 { from: './src/styles/mobile.css', to: './styles/'},
-                { from: './src/styles/mobileCustomers.css', to: './styles/'}
+                { from: './src/styles/mobileCustomers.css', to: './styles/'},
+                { from: './src/styles/mobileError404.css', to: './styles/'}
             ],
         })
     ]

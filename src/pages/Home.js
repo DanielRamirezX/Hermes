@@ -10,7 +10,7 @@ const Home = () => {
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/styles/mobile.css">
-    <title>Clientes</title>
+    <title>Hermes</title>
     </head>
     <body>
     <header>
@@ -32,10 +32,10 @@ const Home = () => {
                     <img src="./src/assets/HERMESblanco 2.svg" alt="Logo de bici mensajeria hermes">
                 </figure>
             </li>
-            <li><a href="#/about/">¿Quienes somos?</a></li>
+            <li><a href="#/about/">¿Quiénes somos?</a></li>
             <li><a href="#/clientes/">Clientes</a></li>
             <li><a href="#/empresas/">Empresas</a></li>
-            <li><a href="#/cotizador">Costiza ahora</a></li>
+            <li><a href="#/cotizador">Cotizar ahora</a></li>
           </ul>  
         </nav>
     </section>
