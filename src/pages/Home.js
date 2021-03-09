@@ -29,7 +29,7 @@ const Home = () => {
           <ul>
             <li>
                 <figure>
-                    <img src="./src/assets/HERMESblanco 2.svg" alt="Logo de bici mensajeria hermes">
+                    <img src="./src/assets/HERMESblancoyrojo.png" alt="Logo de bici mensajeria hermes">
                 </figure>
             </li>
             <li><a href="#/about/">¿Quiénes somos?</a></li>

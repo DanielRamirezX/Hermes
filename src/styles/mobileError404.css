@@ -213,11 +213,11 @@ footer {
   }
   
   footer > span{
-    background-image: url("../assets/HERMESblanco\ 2.svg");
+    background-image: url("../assets/HERMESblanco\ 2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 117px;
+    width: 120px;
     height: 69px;
     margin-bottom: 20px;
   }
