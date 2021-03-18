@@ -18,8 +18,8 @@ module.exports = {
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',
-                }
-            }
+                },
+            },
         ]
     },
     plugins: [
@@ -34,7 +34,8 @@ module.exports = {
             patterns: [
                 { from: './src/styles/mobile.css', to: './styles/'},
                 { from: './src/styles/mobileCustomers.css', to: './styles/'},
-                { from: './src/styles/mobileError404.css', to: './styles/'}
+                { from: './src/styles/mobileError404.css', to: './styles/'},
+                { from:'./src/assets/',to:'./assets/'} 
             ],
         })
     ]
