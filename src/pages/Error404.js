@@ -28,7 +28,6 @@ const Error404 = () => {
                         <img src="./src/assets/HERMESblancoyrojo.png" alt="Logo de bici mensajeria hermes">
                     </figure>
                 </li>
-    	        <li><a href="#">¿Quiénes somos?</a></li>
     	        <li><a href="#">Clientes</a></li>
     	        <li><a href="#">Empresas</a></li>
 		        <li><a href="#">Cotizar ahora</a></li>
@@ -49,7 +48,6 @@ const Error404 = () => {
         </section>
         <section class="main__section-links">
             <p>Quizás quisiste acceder a</p>
-            <p><a href="#">¿Quiénes somos?</a></p>
             <p><a href="../pages/customers.html">Clientes</a></p>
             <p><a href="#">Empresas</a></p>
             <p><a href="#">Cotizar ahora</a></p>
