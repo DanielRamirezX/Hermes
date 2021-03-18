@@ -54,19 +54,36 @@ const Home = () => {
             <figure>
                 <img src="./src/assets/ImageFeatures2.svg" alt="Bicicleta animada">
             </figure>
-            <span><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </i></span>
+            <span>
+                <i>
+                    <p><b>Precio justo:</b></p>
+                    <p>Nuestras tarifas se ajustan para ser accesibles y la remuneración del mensajero sea justa.</p>
+                    <p>(tarifas accesibles adecuadas a diferentes necesidades)</p>
+                </i>
+            </span>
         </div>
         <div class="main__info-section--features">
             <figure>
                 <img src="./src/assets/ImageFeatures3.svg" alt="Bicicleta animada">
             </figure>
-            <span><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </i></span>
+            <span>
+                <i>
+                    <p><b>Volumen de carga flexible:</b></p>
+                    <p>Desde un sobre hasta objetos de gran tamaño.</p>
+                    <p>(Contamos con el equipo necesario para cumplir con tus entregas)</p>
+                </i>
+            </span>
         </div>
         <div class="main__info-section--features">
             <figure>
                 <img src="./src/assets/ImageFeatures4.svg" alt="Bicicleta animada">
             </figure>
-            <span><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </i></span>
+            <span>
+                <i>
+                    <p><b>Tiempos de entrega:</b></p>
+                    <p>Cortos tiempos de entrega, entregas urgentes</p>
+                </i>
+            </span>
         </div>
     </section>
     <section class="carousel">
