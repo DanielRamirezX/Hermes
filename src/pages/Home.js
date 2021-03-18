@@ -32,7 +32,6 @@ const Home = () => {
                     <img src="./src/assets/HERMESblancoyrojo.png" alt="Logo de bici mensajeria hermes">
                 </figure>
             </li>
-            <li><a href="#/about/">¿Quiénes somos?</a></li>
             <li><a href="#/clientes/">Clientes</a></li>
             <li><a href="#/empresas/">Empresas</a></li>
             <li><a href="#/cotizador">Cotizar ahora</a></li>
