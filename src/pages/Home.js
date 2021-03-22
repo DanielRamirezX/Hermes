@@ -91,7 +91,9 @@ const Home = () => {
             <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
             <div class="carousel-item">
                 <div class="main__about-section--info">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit</span>
+                    <span>Equipo versátil para todo tipo de entregas 
+                    Adaptabilidad a las necesidades de los clientes (paquetes)
+                    </span>
                 </div>
             </div>
             <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
