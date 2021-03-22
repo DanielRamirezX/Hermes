@@ -2,13 +2,15 @@ import Home from '../pages/Home';
 import Customers from '../pages/Customers';
 import getHash from '../utils/getHash';
 import resolveRoutes from '../utils/resolveRoutes';
-import Error404 from "../pages/Error404";
+import Error404 from '../pages/Error404';
 import About from '../pages/About';
+import Enterprises from '../pages/Enterprises';
 
 const routes = {
     '/': Home,
     '/clientes' : Customers,
     '/about': About,
+    '/empresas' : Enterprises
 };
 
 const router = async () => {

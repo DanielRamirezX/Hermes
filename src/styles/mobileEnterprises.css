@@ -1,6 +1,7 @@
 :root {
     --cream-white: #FAF8F7;
     --red-hermes: #EB2629;
+    --grey-hermes: #212121;
     --dark-red: #6B0000;
 }
 
@@ -200,7 +201,7 @@ img {
     width: 100%;
     background-image: url("../assets/city-4840362.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     text-align: center;
 }

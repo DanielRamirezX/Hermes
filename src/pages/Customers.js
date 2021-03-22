@@ -28,8 +28,8 @@ const Customers = () => {
                         <img src="../src/assets/HERMESblancoyrojo.png" alt="Logo de bici mensajeria hermes">
                     </figure>
                 </li>
-    	        <li><a href="./pages/customers.html">Clientes</a></li>
-    	        <li><a href="#">Empresas</a></li>
+    	        <li><a href="#/clientes">Clientes</a></li>
+    	        <li><a href="#/empresas">Empresas</a></li>
 		        <li><a href="#">Cotizar ahora</a></li>
   	        </ul>  
 	        </nav>

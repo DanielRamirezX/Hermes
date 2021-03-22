@@ -26,11 +26,11 @@ const Enterprises = () => {
   	        <ul>
                 <li>
                     <figure>
-                        <img src="../assets/HermesBikeWhite.svg" alt="Logo de bici mensajeria hermes">
+                        <img src="../assets/HERMESblancoyrojo.png" alt="Logo de bici mensajeria hermes">
                     </figure>
                 </li>
-    	        <li><a href="#">Clientes</a></li>
-    	        <li><a href="#">Empresas</a></li>
+    	        <li><a href="#/clientes">Clientes</a></li>
+    	        <li><a href="#/empresas">Empresas</a></li>
 		        <li><a href="#">Cotizar ahora</a></li>
   	        </ul>  
 	        </nav>
