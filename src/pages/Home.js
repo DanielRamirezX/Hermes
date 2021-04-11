@@ -9,7 +9,7 @@ const Home = () => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <title>Hermes</title>
     </head>
     <body>
@@ -17,7 +17,7 @@ const Home = () => {
     <div class="header__background-image"></div>
     <section class="header__first-section">
         <figure class="header__first-section--logo">
-            <img src="./assets/HermesBikeWhite.svg" alt="Logo Hermes">
+            <img src="assets/HermesBikeWhite.svg" alt="Logo Hermes">
         </figure>
         <input id="burger" type="checkbox" />
         <label for="burger">
@@ -29,7 +29,7 @@ const Home = () => {
           <ul>
             <li>
                 <figure>
-                    <img src="./assets/HERMESblancoyrojo.png" alt="Logo de bici mensajeria hermes">
+                    <img src="assets/HERMESblancoyrojo.png" alt="Logo de bici mensajeria hermes">
                 </figure>
             </li>
             <li><a href="#/clientes/">Clientes</a></li>
@@ -46,13 +46,13 @@ const Home = () => {
     <section class="main__info-section">
         <div class="main__info-section--features">
             <figure>
-                <img src="./assets/ImageFeatures1.svg" alt="Bicicleta animada">
+                <img src="assets/ImageFeatures1.svg" alt="Bicicleta animada">
             </figure>
             <span><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </i></span>
         </div>
         <div class="main__info-section--features">
             <figure>
-                <img src="./assets/ImageFeatures2.svg" alt="Bicicleta animada">
+                <img src="assets/ImageFeatures2.svg" alt="Bicicleta animada">
             </figure>
             <span>
                 <i>
@@ -64,7 +64,7 @@ const Home = () => {
         </div>
         <div class="main__info-section--features">
             <figure>
-                <img src="./assets/ImageFeatures3.svg" alt="Bicicleta animada">
+                <img src="assets/ImageFeatures3.svg" alt="Bicicleta animada">
             </figure>
             <span>
                 <i>
@@ -76,7 +76,7 @@ const Home = () => {
         </div>
         <div class="main__info-section--features">
             <figure>
-                <img src="./assets/ImageFeatures4.svg" alt="Bicicleta animada">
+                <img src="assets/ImageFeatures4.svg" alt="Bicicleta animada">
             </figure>
             <span>
                 <i>
@@ -138,7 +138,7 @@ const Home = () => {
                 </div>
             </div>
             <figure>
-                <img src="./assets/FeeMap.jpg" alt="Mapa con la zona A marcada">
+                <img src="assets/FeeMap.jpg" alt="Mapa con la zona A marcada">
             </figure>
             <div class="middle-feecard">
                 <span class="time"></span>

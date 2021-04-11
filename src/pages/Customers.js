@@ -6,14 +6,14 @@ const Customers = () => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/mobileCustomers.css">
+    <link rel="stylesheet" href="styles/mobileCustomers.css">
     <title>Hermes | Clientes</title>
     </head>
     <body>
     <header>
         <section class="header__first-section">
             <figure class="header__first-section--logo">
-                <img src="./assets/HermesBlackBike.svg" alt="Logo de bici hermes negra">
+                <img src="assets/HermesBlackBike.svg" alt="Logo de bici hermes negra">
             </figure>
             <input id="burger" type="checkbox" />
 	        <label for="burger">
@@ -25,7 +25,7 @@ const Customers = () => {
   	        <ul>
                 <li>
                     <figure>
-                        <img src="./assets/HERMESblancoyrojo.png" alt="Logo de bici mensajeria hermes">
+                        <img src="assets/HERMESblancoyrojo.png" alt="Logo de bici mensajeria hermes">
                     </figure>
                 </li>
     	        <li><a href="#/clientes">Clientes</a></li>
@@ -45,7 +45,7 @@ const Customers = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
             <figure>
-                <img src="./assets/CustomersAboutImage.jpg" alt="Hombre con lentes andando en bici hermes por avenida de perfil">
+                <img src="assets/CustomersAboutImage.jpg" alt="Hombre con lentes andando en bici hermes por avenida de perfil">
             </figure>
         </section>
         <section class="main__features-section">
@@ -55,7 +55,7 @@ const Customers = () => {
                     <h2>Lorem</h2>
                 </div>
                 <figure>
-                    <img src="./assets/CustomersFeaturesImage.jpg" alt="Hombre de lentes andando en bici por avenida de frente">
+                    <img src="assets/CustomersFeaturesImage.jpg" alt="Hombre de lentes andando en bici por avenida de frente">
                 </figure>
             </div>
             <div class="main__features-section--text">
